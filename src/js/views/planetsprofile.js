@@ -27,7 +27,7 @@ export const Planetsprofile = props => {
 								<div className="col">
 									<h1 className="display-4">Planeta: {items.name}</h1>
 
-									<p style={{ textAlign: "justify" }}>Es un Planeta de Start Wars</p>
+									<p style={{ textAlign: "justify" }}>{store.descripPlane[i]}</p>
 								</div>
 							</div>
 							<div
